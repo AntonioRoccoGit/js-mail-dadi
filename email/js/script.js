@@ -3,7 +3,7 @@
 // stampa un messaggio appropriato sull’esito del controllo.
 
 // array email verificate
-const confirmedEmailList = ["antor.1@gmail.com", "angelo.pr98@alice.it", "jhon.lavega@gmail.com", "ale.libbi02@libero.it"];
+const confirmedEmailList = ["anto.rocco@gmail.com", "angelo.pr@alice.it", "jhon.lavega@gmail.com", "ale.libbi@libero.it"];
 //chiedere all'utente un email
 const userEmail = prompt("Inserire E-mail");
 //utiliziamo un flag per verificare l'email
