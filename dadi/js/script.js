@@ -24,6 +24,8 @@ callToAction.addEventListener("click", function(){
     //verifichaimo la condizione di vincita
     if (userDiceNumber > computerDiceNumber){
         resault.innerHTML = "Complimenti hai vinto";
+    }else if (userDiceNumber === computerDiceNumber){
+        resault.innerHTML = "Un bel pareggio";
     }else {
         resault.innerHTML = "Non hai avuto fortuna";
     }
